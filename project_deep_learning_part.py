@@ -43,7 +43,7 @@ from sklearn.cluster import KMeans
 """# **Discovering The Data**"""
 
 # Load the dataset
-df = pd.read_csv('/content/Spotify-dataset.csv',low_memory=False)
+df = pd.read_csv('https://raw.githubusercontent.com/Elmougi/Spotify_dataset_NTI/refs/heads/main/Spotify-dataset.csv',low_memory=False)
 pd.set_option('display.max_rows', None)
 
 # Display dataset info
